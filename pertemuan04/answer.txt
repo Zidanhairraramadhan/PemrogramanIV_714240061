@@ -1,0 +1,19 @@
+1.Jelaskan mengapa pesan kesalahan tersebut muncul!
+;karena Field myType menggunakan access modifier protected, yang tidak mengizinkan akses langsung dari class yang tidak mewarisi (ProductTest_714240061).
+2.Perhatikan hasil yang muncul dilayar, kenapa bisa seperti itu?
+:Field private string myType tidak diberi nilai awal (initialization) di dalam constructor, sehingga nilai default-nya adalah null.
+3.Jelaskan mengapa yang muncul dilayar adalah kata tersebut!
+:Kode menggunakan public property MyType untuk menetapkan nilai ("DVD") melalui setter (set) , yang berhasil mengubah nilai field private di dalamnya.
+
+
+
+bagian 2
+1.Jelaskan mengapa tipe dan title dari buku tersebut tidak muncul! Apakah istilah dalam
+konsep OOP yang mendefinisikan fenomena seperti ini?
+:Penyebab: Constructor kelas turunan (Book_714240061) tidak memanggil constructor kelas dasar (Product_714240061) untuk menginisialisasi field myType dan myTitle.
+2.Perhatikan hasil yang muncul dilayar, jelaskan mengapa saat ini tipe dan judul buku
+tampil pada output!
+:onstructor Book_714240061 telah diperbaiki dengan memanggil constructor kelas dasar menggunakan : base(type, title) , yang memastikan field kelas dasar terinisialisasi.
+3.Mengapa objek product2 tidak dibuat seperti product1 atau seperti gambar yang
+ditandai di bawah?
+:Constructor DVD_714240061 dirancang untuk menetapkan MyType secara internal (MyType = "DVD";) , sehingga tidak memerlukan parameter type dari luar
