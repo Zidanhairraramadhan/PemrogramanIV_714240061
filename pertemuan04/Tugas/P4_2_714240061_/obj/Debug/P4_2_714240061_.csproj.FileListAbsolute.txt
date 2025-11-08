@@ -1,0 +1,8 @@
+C:\Users\user\source\repos\P4_2_714240061_\P4_2_714240061_\bin\Debug\P4_2_714240061_.exe.config
+C:\Users\user\source\repos\P4_2_714240061_\P4_2_714240061_\bin\Debug\P4_2_714240061_.exe
+C:\Users\user\source\repos\P4_2_714240061_\P4_2_714240061_\bin\Debug\P4_2_714240061_.pdb
+C:\Users\user\source\repos\P4_2_714240061_\P4_2_714240061_\obj\Debug\P4_2_714240061_.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\P4_2_714240061_\P4_2_714240061_\obj\Debug\P4_2_714240061_.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\P4_2_714240061_\P4_2_714240061_\obj\Debug\P4_2_714240061_.exe
+C:\Users\user\source\repos\P4_2_714240061_\P4_2_714240061_\obj\Debug\P4_2_714240061_.pdb
+C:\Users\user\source\repos\P4_2_714240061_\P4_2_714240061_\obj\Debug\P4_2_714240061_.exe.config
